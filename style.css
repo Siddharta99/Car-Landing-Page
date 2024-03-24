@@ -134,7 +134,7 @@ nav .social a i:hover {
 
 }
 
-@media (min-width: 400px) {@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@media (max-width: 600px) {@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
     *{
         padding: 0;
         margin: 0;
@@ -162,6 +162,7 @@ nav .social a i:hover {
     header nav .logo{
         width: 20px;
         margin: 2px;
+        height: 20px;
         font: 100;
         font-size: small;
     }
@@ -198,11 +199,16 @@ nav .social a i:hover {
     }
     
     nav .social a i {
-        padding-top: 20px;
+        padding-top: 5px;
         color: #fff;
         font-size: 10px;
-        margin-left: 5px;
-        transition: 0.3s;  
+        /* margin-left: 5px; */
+        transition: 0.3s; 
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap; 
  
     }
     
